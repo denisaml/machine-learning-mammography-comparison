@@ -98,14 +98,14 @@ The two models yielded starkly contrasting results, highlighting the importance 
 
 > **Underwhelming Performance Due to Data Limitations**
 
-- **Overall Accuracy**: The CNN achieved a modest accuracy of **65%** on the test set.
+- **Overall Accuracy**: The CNN achieved a modest accuracy of **64%** on the test set.
 - **Key Issue**: The model suffered from **severe overfitting**. While training accuracy steadily increased to 74%, validation accuracy stagnated around 67% before declining. The divergence between the training and validation loss curves confirmed this issue.
 - **Confusion Matrix**: The model's primary weakness was its inability to correctly identify malignant cases:
-    - **True Negatives (Benign)**: 193
-    - **False Positives**: 15
-    - **False Negatives**: 102
-    - **True Positives (Malignant)**: 26
-- **Metrics**: The **recall for the malignant class was only 21%**. This means the model failed to detect approximately **80% of the actual malignant tumors**, making it clinically unreliable.
+    - **True Negatives (Benign)**: 194
+    - **False Positives**: 14
+    - **False Negatives**: 107
+    - **True Positives (Malignant)**: 21
+- **Metrics**: The **recall for the malignant class was only 16%**. This means the model failed to detect approximately **83% of the actual malignant tumors**, making it clinically unreliable.
 
 ---
 
